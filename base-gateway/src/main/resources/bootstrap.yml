@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: base-gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: ${NACOS-HOST:192.168.2.200}:${NACOS-PORT:8848}
+      config:
+        server-addr: ${spring.cloud.nacos.discovery.server-addr}
+        file-extension: yml
+        sharedConfigs: application-${spring.profiles.active}.${spring.cloud.nacos.config.file-extension}
+  profiles:
+    active: dev
