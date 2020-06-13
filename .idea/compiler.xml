@@ -9,14 +9,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="base-gateway" />
         <module name="base-auth" />
-        <module name="Shmily" />
+        <module name="base-common-core" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="base-auth" options="-parameters" />
+      <module name="base-auth" options="" />
       <module name="base-gateway" options="-parameters" />
     </option>
   </component>
