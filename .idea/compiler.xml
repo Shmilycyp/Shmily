@@ -17,7 +17,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="base-auth" options="" />
-      <module name="base-gateway" options="-parameters" />
+      <module name="base-gateway" options="" />
     </option>
   </component>
 </project>
