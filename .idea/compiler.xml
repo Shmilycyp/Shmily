@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="base-gateway" />
+        <module name="base-common-data" />
         <module name="base-auth" />
         <module name="base-common-core" />
       </profile>

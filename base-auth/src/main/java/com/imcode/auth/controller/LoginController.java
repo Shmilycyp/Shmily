@@ -1,4 +1,4 @@
-package com.imcode.baseauth.controller;
+package com.imcode.auth.controller;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;

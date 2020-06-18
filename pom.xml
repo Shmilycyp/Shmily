@@ -20,6 +20,7 @@
         <spring-boot.version>2.2.7.RELEASE</spring-boot.version>
         <spring-cloud.version>Greenwich.SR3</spring-cloud.version>
         <spring-cloud-alibaba.version>2.2.1.RELEASE</spring-cloud-alibaba.version>
+        <mybatis-plus.version>3.3.2</mybatis-plus.version>
 
     </properties>
 
@@ -51,6 +52,14 @@
     <dependencyManagement>
 
         <dependencies>
+
+            <!-- 工具包-->
+            <dependency>
+                <groupId>com.imcode</groupId>
+                <artifactId>base-common-core</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
@@ -75,6 +84,14 @@
                 <version>${spring-cloud-alibaba.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+
+
+            <!--mybatis plus extension,包含了mybatis plus core-->
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-extension</artifactId>
+                <version>${mybatis-plus.version}</version>
             </dependency>
 
         </dependencies>
