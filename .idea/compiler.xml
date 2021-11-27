@@ -7,17 +7,22 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="base-common-core" />
         <module name="base-gateway" />
         <module name="base-common-data" />
+        <module name="dubbo-demo" />
         <module name="base-auth" />
-        <module name="base-common-core" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8" />
+    <bytecodeTargetLevel target="8">
+      <module name="base-dubbo" target="1.8" />
+      <module name="dubbo-demo-interface" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="base-auth" options="" />
+      <module name="base-dubbo" options="" />
       <module name="base-gateway" options="" />
     </option>
   </component>
