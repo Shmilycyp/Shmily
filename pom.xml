@@ -25,7 +25,7 @@
         <hutool.version>5.3.7</hutool.version>
         <fastjson.version>1.2.71</fastjson.version>
 
-        <dubbo.version>3.0.4</dubbo.version>
+        <dubbo.version>3.0.5</dubbo.version>
 
     </properties>
 
