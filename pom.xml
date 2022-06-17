@@ -23,7 +23,7 @@
         <spring-cloud-alibaba.version>2.2.1.RELEASE</spring-cloud-alibaba.version>
         <mybatis-plus.version>3.3.2</mybatis-plus.version>
         <hutool.version>5.3.7</hutool.version>
-        <fastjson.version>1.2.71</fastjson.version>
+        <fastjson.version>1.2.83</fastjson.version>
 
         <dubbo.version>3.0.4</dubbo.version>
 
