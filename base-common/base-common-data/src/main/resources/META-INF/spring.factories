@@ -1,3 +1,0 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  com.imcode.common.data.cache.RedisTemplateConfig,\
-  com.imcode.common.data.mybatis.MybatisPlusConfig

@@ -7,16 +7,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="base-common-core" />
-        <module name="base-gateway" />
-        <module name="base-common-data" />
-        <module name="dubbo-demo" />
-        <module name="base-auth" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
+      <module name="base-auth" target="1.8" />
+      <module name="base-common" target="1.8" />
+      <module name="base-common-core" target="1.8" />
+      <module name="base-common-data" target="1.8" />
       <module name="base-dubbo" target="1.8" />
+      <module name="base-gateway" target="1.8" />
+      <module name="dubbo-demo" target="1.8" />
       <module name="dubbo-demo-interface" target="1.8" />
+      <module name="kafka-demo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -24,6 +26,7 @@
       <module name="base-auth" options="" />
       <module name="base-dubbo" options="" />
       <module name="base-gateway" options="" />
+      <module name="kafka-demo" options="-parameters" />
     </option>
   </component>
 </project>
