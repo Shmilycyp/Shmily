@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="my-getway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
@@ -27,6 +28,7 @@
       <module name="base-dubbo" options="" />
       <module name="base-gateway" options="" />
       <module name="kafka-demo" options="-parameters" />
+      <module name="my-getway" options="" />
     </option>
   </component>
 </project>
