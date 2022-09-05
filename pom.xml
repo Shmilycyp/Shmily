@@ -12,6 +12,7 @@
 
     <modules>
 
+        <module>leetcode</module>
     </modules>
 
     <properties>

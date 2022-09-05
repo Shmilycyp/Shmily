@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="my-getway" />
+        <module name="leetcode" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
