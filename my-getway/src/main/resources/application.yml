@@ -1,8 +1,0 @@
-spring:
-  cloud:
-    gateway:
-      routes:
-        - id: after_route
-          uri: file:///E:/core/gateway/after_routes.txt
-          predicates:
-            - Cookie=mycookie,file
