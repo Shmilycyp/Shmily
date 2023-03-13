@@ -7,7 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="my-getway" />
+        <module name="leecode" />
         <module name="leetcode" />
       </profile>
     </annotationProcessing>
@@ -21,6 +21,9 @@
       <module name="dubbo-demo" target="1.8" />
       <module name="dubbo-demo-interface" target="1.8" />
       <module name="kafka-demo" target="1.8" />
+      <module name="my-getway" target="19" />
+      <module name="spring" target="1.8" />
+      <module name="spring-s" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -30,6 +33,8 @@
       <module name="base-gateway" options="" />
       <module name="kafka-demo" options="-parameters" />
       <module name="my-getway" options="" />
+      <module name="spring" options="-parameters" />
+      <module name="spring-s" options="-parameters" />
     </option>
   </component>
 </project>
