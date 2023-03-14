@@ -12,7 +12,7 @@
     <artifactId>leecode</artifactId>
 
     <properties>
-        <maven.compiler.source>8</maven.compiler.source>
+        <maven.gcompiler.source>8</maven.gcompiler.source>
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
 
